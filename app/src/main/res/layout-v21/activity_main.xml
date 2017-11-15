@@ -5,7 +5,7 @@
     android:id="@+id/activity_main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="?attr/colorButtonNormal"
+    android:background="@android:color/darker_gray"
     android:paddingBottom="16dp"
     android:paddingLeft="16dp"
     android:paddingRight="16dp"
@@ -16,27 +16,18 @@
         android:id="@+id/imageView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
+        android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
         android:background="?android:attr/colorButtonNormal"
-        android:contentDescription="@string/title"
-        app:srcCompat="@drawable/coal"
-        tools:targetApi="lollipop" />
-
+        android:contentDescription="@android:string/unknownName"
+        app:srcCompat="@drawable/coal" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="49dp"
         android:text="@string/title"
-        android:textAllCaps="true"
-        android:textAppearance="@style/TextAppearance.AppCompat"
-        android:textSize="40sp"
-        android:textStyle="bold|italic"
-        android:visibility="visible"
-        tools:text="@string/title" />
+        android:textColor="@android:color/black"
+        tools:textSize="40sp" />
 
 </RelativeLayout>
